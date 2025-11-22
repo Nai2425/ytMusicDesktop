@@ -7,6 +7,7 @@ function createSplash() {
   splashWindow = new BrowserWindow({
     width: 400,
     height: 300,
+    icon: "pota.ico",
     transparent: true,
     frame: false,
     alwaysOnTop: true,
@@ -20,6 +21,7 @@ function createMainWindow() {
     width: 1200,
     height: 800,
     show: false,
+    icon: "pota.ico",
     autoHideMenuBar: true,
     webPreferences: {
       nodeIntegration: false,
