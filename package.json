@@ -6,12 +6,13 @@
   "build": {
     "appId": "com.Nai2425.ytmusic",
     "win": {
-      "icon": "icon.ico",
+      "icon": "pota.ico",
       "target": "nsis"
     }
   },
   "scripts": {
-    "start": "electron main.js"
+    "start": "electron main.js",
+    "build": "electron-builder"
   },
   "keywords": [],
   "author": "",
